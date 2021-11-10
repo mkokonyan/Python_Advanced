@@ -1,6 +1,5 @@
 from collections import deque
 
-
 children = deque(input().split())
 count = int(input())
 while len(children) > 1:
