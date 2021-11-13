@@ -1,47 +1,50 @@
-def time_print(time):
-    hours = time // 3600
-    time -= hours * 3600
-    if hours > 23:
-        hours = 0
-    minutes = time // 60
-    seconds = time % 60
-    return f"[{hours:02d}:{minutes:02d}:{seconds:02d}]"
-
-
 from collections import deque
+from datetime import datetime, timedelta
+from time import strftime
 
-data_line = input().split(";")
-robot_names = []
-time_processing = []
+data = input().split(";")
+time = datetime.strptime(input(), "%H:%M:%S")
 
-for i in range(len(data_line)):
-    name, time = data_line[i].split("-")
-    robot_names.append(name)
-    time_processing.append(int(time))
+robots = []
+available_robots = []
+products = []
 
-starting_time = input().split(":")
-current_time = int(starting_time[2]) + 60 * int(starting_time[1]) + 3600 * int(starting_time[0])
+
+for el in data:
+    robot_data = el.split("-")
+    robot = {}
+    robot["name"] = robot_data[0]
+    robot["processing_time"] = int(robot_data[1])
+    robot["available_at"] = time
+    robots.append(robot)
+    available_robots.append(robot)
 
 product = input()
-product_line = deque()
-robot_active_time = [0] * len(robot_names)
-
+available_robots = deque(available_robots)
 while not product == "End":
-    product_line.append(product)
+    products.append(product)
     product = input()
 
-
-while product_line:
-    current_time += 1
-    for i in range(0, len(robot_names)):
-        if robot_active_time[i] == 0:
-            robot_active_time[i] += current_time + time_processing[i]
-            print(f"{robot_names[i]} - {product_line.popleft()} {time_print(current_time)}")
-            break
-        elif current_time >= robot_active_time[i]:
-            robot_active_time[i] += time_processing[i]
-            print(f"{robot_names[i]} - {product_line.popleft()} {time_print(current_time)}")
-            break
+products = deque(products)
+time = time + timedelta(seconds=1)
+while len(products) > 0:
+    current_product = products.popleft()
+    if available_robots:
+        current_robot = available_robots.popleft()
+        current_robot["available_at"] = time + timedelta(seconds=current_robot["processing_time"])
+        robot = [el for el in robots if el == current_robot][0]
+        robot["available_at"] = time + timedelta(seconds=current_robot["processing_time"])
+        print((f"{robot['name']} - {current_product} [{time.strftime('%H:%M:%S')}]"))
+    else:
+        for r in robots:
+            if time >= r["available_at"]:
+                available_robots.append(r)
+        if not available_robots:
+            products.append(current_product)
         else:
-            if i == len(robot_names) - 1:
-                product_line.append(product_line.popleft())
+            current_robot = available_robots.popleft()
+            current_robot["available_at"] = time + timedelta(seconds=current_robot["processing_time"])
+            robot = [el for el in robots if el == current_robot][0]
+            robot["available_at"] = time + timedelta(seconds=current_robot["processing_time"])
+            print((f"{robot['name']} - {current_product} [{time.strftime('%H:%M:%S')}]"))
+    time = time + timedelta(seconds=1)

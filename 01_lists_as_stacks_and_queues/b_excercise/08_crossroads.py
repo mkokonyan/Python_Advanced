@@ -1,37 +1,42 @@
 from collections import deque
 
-green_light_duration = int(input())
-free_window = int(input())
-data = input()
-is_crashed = False
-total_cars_passed = 0
+green_time = int(input())
+window_time = int(input())
+crashed = False
 
-current_green = green_light_duration
-current_free_window = free_window
-while not data == "END":
-    if not data == "green":
-        car_model = deque(list(data))
-        for i in range(len(car_model)):
-            if current_green >= 1:
-                current_green -= 1
-            else:
-                current_green = 0
-                current_free_window -= 1
-            if current_free_window < 0:
-                is_crashed = True
+line = input()
+cars = deque()
+counter = 0
+
+while not line == "END":
+    if line == "green":
+        green_timer = green_time
+        if cars:
+            copy = cars.popleft()
+            current_car = deque(copy)
+            while green_timer:
+                if not current_car:
+                    if cars:
+                        copy = cars.popleft()
+                        current_car = deque(copy)
+                    else:
+                        break
+                current_car.popleft()
+                green_timer -= 1
+            if current_car:
+                window_timer = window_time
+                while window_timer and current_car:
+                    current_car.popleft()
+                    window_timer -= 1
+            if current_car:
+                crashed = True
                 print("A crash happened!")
-                print(f"{data} was hit at {car_model[0]}.")
+                print(f"{copy} was hit at {current_car.popleft()}.")
                 break
-            car_model.popleft()
-        if not car_model:
-            total_cars_passed += 1
     else:
-        current_green = green_light_duration
-        current_free_window = free_window
-    if current_green > 0:
-        data = input()
-    else:
-        break
-if not is_crashed:
+        cars.append(line)
+        counter += 1
+    line = input()
+if not crashed:
     print("Everyone is safe.")
-    print(f"{total_cars_passed} total cars passed the crossroads.")
+    print(f"{counter - len(cars)} total cars passed the crossroads.")
