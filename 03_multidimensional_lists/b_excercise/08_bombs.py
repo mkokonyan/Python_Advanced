@@ -14,27 +14,27 @@ data = [el for el in input().split()]
 for i in range(len(data)):
     current_row, current_column = [int(x) for x in data[i].split(",")]
     exploded_cell = matrix[current_row][current_column]
+    if exploded_cell > 0:
+        if is_valid(current_row - 1, current_column):
+            matrix[current_row - 1][current_column] -= exploded_cell
+        if is_valid(current_row - 1, current_column - 1):
+            matrix[current_row - 1][current_column - 1] -= exploded_cell
+        if is_valid(current_row - 1, current_column + 1):
+            matrix[current_row - 1][current_column + 1] -= exploded_cell
 
-    if is_valid(current_row - 1, current_column):
-        matrix[current_row - 1][current_column] -= exploded_cell
-    if is_valid(current_row - 1, current_column - 1):
-        matrix[current_row - 1][current_column - 1] -= exploded_cell
-    if is_valid(current_row - 1, current_column + 1):
-        matrix[current_row - 1][current_column + 1] -= exploded_cell
+        if is_valid(current_row, current_column - 1):
+            matrix[current_row][current_column - 1] -= exploded_cell
+        if is_valid(current_row, current_column + 1):
+            matrix[current_row][current_column + 1] -= exploded_cell
 
-    if is_valid(current_row, current_column - 1):
-        matrix[current_row][current_column - 1] -= exploded_cell
-    if is_valid(current_row, current_column + 1):
-        matrix[current_row][current_column + 1] -= exploded_cell
+        if is_valid(current_row + 1, current_column):
+            matrix[current_row + 1][current_column] -= exploded_cell
+        if is_valid(current_row + 1, current_column - 1):
+            matrix[current_row + 1][current_column - 1] -= exploded_cell
+        if is_valid(current_row + 1, current_column + 1):
+            matrix[current_row + 1][current_column + 1] -= exploded_cell
 
-    if is_valid(current_row + 1, current_column):
-        matrix[current_row + 1][current_column] -= exploded_cell
-    if is_valid(current_row + 1, current_column - 1):
-        matrix[current_row + 1][current_column - 1] -= exploded_cell
-    if is_valid(current_row + 1, current_column + 1):
-        matrix[current_row + 1][current_column + 1] -= exploded_cell
-
-    matrix[current_row][current_column] = 0
+        matrix[current_row][current_column] = 0
 
 alive_cells = 0
 sum_active_cells = 0
