@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/08_bombs.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/08_bombs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/09_miner.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/09_miner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/10_radioactive_mutate_vampire_bunnies.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/10_radioactive_mutate_vampire_bunnies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.09_miner">
+  <component name="RunManager" selected="Python.10_radioactive_mutate_vampire_bunnies">
     <configuration name="00_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="builtins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_radioactive_mutate_vampire_bunnies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2021.2/python_stubs/629270042" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_multidimensional_lists/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2021.2/python_stubs/629270042/builtins.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/10_radioactive_mutate_vampire_bunnies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10_radioactive_mutate_vampire_bunnies" />
         <item itemvalue="Python.09_miner" />
         <item itemvalue="Python.08_bombs" />
         <item itemvalue="Python.00_demo" />
         <item itemvalue="Python.07_snake_moves" />
-        <item itemvalue="Python.builtins" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637188618195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="last commit">
+      <created>1637261118563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637261118563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +231,18 @@
           <line>47</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_multidimensional_lists/b_excercise/10_radioactive_mutate_vampire_bunnies.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="is_dead" />
+        <watch expression="is_dead" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
