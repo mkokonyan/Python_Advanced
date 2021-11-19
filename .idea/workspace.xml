@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/03_knight_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/03_knight_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.00_demo">
+  <component name="RunManager" selected="Python.04_easter_bunny">
     <configuration name="00_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_radioactive_mutate_vampire_bunnies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_easter_bunny" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_multidimensional_lists/b_excercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_multidimensional_lists/b_excercise/10_radioactive_mutate_vampire_bunnies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04_easter_bunny" />
         <item itemvalue="Python.00_demo" />
         <item itemvalue="Python.03_knight_game" />
         <item itemvalue="Python.02_matrix_modification" />
         <item itemvalue="Python.01_flatten_lists" />
-        <item itemvalue="Python.10_radioactive_mutate_vampire_bunnies" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637356365084</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="last commit">
+      <created>1637359489861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637359489861</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +277,16 @@
           <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/03_knight_game.py</url>
           <line>33</line>
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
