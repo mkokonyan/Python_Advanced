@@ -1,103 +1,44 @@
-def is_valid_index(index):
-    if 0 <= index < rows:
+n = int(input())
+matrix = []
+
+for _ in range(n):
+    matrix.append(list(input()))
+
+
+def is_valid_bound(row, col):
+    if 0 <= row < n and 0 <= col < n:
         return True
     return False
 
-def total_knights_actualization():
-    total_knights = {}
-    knights = 0
-    for i in range(rows):
-        for j in range(rows):
-            if board[i][j] == "K":
-                knights += 1
-                current_knight = f"knight{knights}"
-                removed_knights = 0
-                if is_valid_index(i - 2) and is_valid_index(j - 1):
-                    if board[i - 2][j - 1] == "K":
-                        removed_knights += 1
-                if is_valid_index(i - 2) and is_valid_index(j + 1):
-                    if board[i - 2][j + 1] == "K":
-                        removed_knights += 1
-                if is_valid_index(i - 1) and is_valid_index(j - 2):
-                    if board[i - 1][j - 2] == "K":
-                        removed_knights += 1
-                if is_valid_index(i - 1) and is_valid_index(j + 2):
-                    if board[i - 1][j + 2] == "K":
-                        removed_knights += 1
-                if is_valid_index(i + 1) and is_valid_index(j - 2):
-                    if board[i + 1][j - 2] == "K":
-                        removed_knights += 1
-                if is_valid_index(i + 1) and is_valid_index(j + 2):
-                    if board[i + 1][j + 2] == "K":
-                        removed_knights += 1
-                if is_valid_index(i + 2) and is_valid_index(j - 1):
-                    if board[i + 2][j - 1] == "K":
-                        removed_knights += 1
-                if is_valid_index(i + 2) and is_valid_index(j + 1):
-                    if board[i + 2][j + 1] == "K":
-                        removed_knights += 1
-                total_knights[current_knight] = {"index": (i, j), "removed_knights": removed_knights}
-    return total_knights
 
-rows = int(input())
-board = []
-for idx in range(rows):
-    board.append(list(input()))
+def calculate_kills(matrix, row, col):
+    kills = 0
+    rows = [-2, -2, 2, 2, 1, 1, -1, -1]
+    cols = [-1, 1, -1, 1, -2, 2, -2, 2]
+    for index in range(len(rows)):
+        potential_row = row + rows[index]
+        potential_col = col + cols[index]
+        if is_valid_bound(potential_row, potential_col):
+            potential_position = matrix[potential_row][potential_col]
+            if potential_position == "K":
+                kills += 1
+    return kills
 
-total_knights = dict(sorted(total_knights_actualization().items(), key=lambda x: -x[1]["removed_knights"]))
-
-is_finished = False
-counter = 0
-while len(total_knights) > 0:
-    is_not_valid = False
-    first_key = next(iter(total_knights))
-    curr_i, curr_j = total_knights[first_key]["index"]
-    for i in range(rows):
-        for j in range(rows):
-            if board[i][j] == "K":
-                if is_valid_index(i - 2) and is_valid_index(j - 1):
-                    if board[i - 2][j - 1] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i - 2) and is_valid_index(j + 1):
-                    if board[i - 2][j + 1] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i - 1) and is_valid_index(j - 2):
-                    if board[i - 1][j - 2] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i - 1) and is_valid_index(j + 2):
-                    if board[i - 1][j + 2] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i + 1) and is_valid_index(j - 2):
-                    if board[i + 1][j - 2] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i + 1) and is_valid_index(j + 2):
-                    if board[i + 1][j + 2] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i + 2) and is_valid_index(j - 1):
-                    if board[i + 2][j - 1] == "K":
-                        is_not_valid = True
-                        break
-                if is_valid_index(i + 2) and is_valid_index(j + 1):
-                    if board[i + 2][j + 1] == "K":
-                        is_not_valid = True
-                        break
-        if is_not_valid:
-            board[curr_i][curr_j] = 0
-            counter += 1
-            break
-        else:
-            is_finished = True
-    if is_finished:
-        break
+removed_counter = 0
+while True:
+    max_kills = 0
+    killer_position = []
+    for row_index in range(n):
+        for col_index in range(n):
+            if matrix[row_index][col_index] == "K":
+                kills = calculate_kills(matrix, row_index, col_index)
+                if max_kills < kills:
+                    max_kills = kills
+                    killer_position = [row_index, col_index]
+    if killer_position:
+        matrix[killer_position[0]][killer_position[1]] = "0"
+        removed_counter += 1
     else:
-        total_knights.clear()
-        total_knights = dict(sorted(total_knights_actualization().items(), key=lambda x: -x[1]["removed_knights"]))
+        break
 
-
-print(counter)
+print(removed_counter)
