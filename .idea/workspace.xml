@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/01_multiplication_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/02_person_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/03_character_combinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/04_chairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/05_operate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/06_expressions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/01_negative_vs_positive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/02_odd_or_even.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/03_arguments_lenght.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/04_concatenate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/05_even_or_odd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/06_function_executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/07_keyword_arguments_lenght.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/08_age_assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/09_recursion_palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/10_recursive_power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/11_fill_the_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/12_math_operations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_comprehensions/a_lab/03_even_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/a_lab/03_even_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_comprehensions/a_lab/04_flattening_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/a_lab/04_flattening_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_comprehensions/a_lab/05_filter_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/a_lab/05_filter_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/01_word_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/01_word_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/02_words_lenghts.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/02_words_lenghts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/03_capitals.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/03_capitals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/06_matrix_of_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/06_matrix_of_palindromes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/07_flatten_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/07_flatten_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/08_heroes_inventory.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/08_heroes_inventory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/09_bunker.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_comprehensions/b_excercise/09_bunker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +62,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.05_filter_numbers">
-    <configuration name="01_ascii_values" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\advanced-06-21\05_functions_advanced\b_excercise" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.05_operate">
+    <configuration name="01_multiplication_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/a_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/a_lab/01_ascii_values.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/a_lab/01_multiplication_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_no_vowels" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_operate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/a_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/a_lab/02_no_vowels.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/a_lab/05_operate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_even_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="07_flatten_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/a_lab/03_even_matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/b_excercise/07_flatten_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_flattening_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="08_heroes_inventory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/a_lab/04_flattening_matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/b_excercise/08_heroes_inventory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_filter_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="09_bunker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_comprehensions/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/a_lab/05_filter_numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_comprehensions/b_excercise/09_bunker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05_filter_numbers" />
-        <item itemvalue="Python.03_even_matrix" />
-        <item itemvalue="Python.04_flattening_matrix" />
-        <item itemvalue="Python.02_no_vowels" />
-        <item itemvalue="Python.01_ascii_values" />
+        <item itemvalue="Python.05_operate" />
+        <item itemvalue="Python.01_multiplication_function" />
+        <item itemvalue="Python.09_bunker" />
+        <item itemvalue="Python.08_heroes_inventory" />
+        <item itemvalue="Python.07_flatten_lists" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637428753577</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="last commit">
+      <created>1637484784892</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637484784892</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +357,11 @@
           <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/06_range_day.py</url>
           <line>76</line>
           <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/04_comprehensions/b_excercise/09_bunker.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
