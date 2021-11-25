@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/01_even_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/02_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/03_min_max_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_functions_advanced/a_lab/02_person_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/02_person_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_functions_advanced/a_lab/04_chairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/04_chairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_functions_advanced/a_lab/06_expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/06_expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_functions_advanced/b_excercise/01_negative_vs_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/01_negative_vs_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_functions_advanced/b_excercise/02_odd_or_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/02_odd_or_even.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +49,8 @@
       <recent name="D:\Programming\advanced-06-21\05_functions_advanced\b_excercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.06_expressions">
-    <configuration name="00_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.02_odd_or_even">
+    <configuration name="01_negative_vs_positive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/b_excercise/01_negative_vs_positive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_person_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_odd_or_even" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/a_lab/02_person_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/b_excercise/02_odd_or_even.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_chairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/a_lab/04_chairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/b_excercise/02_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_operate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_min_max_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/a_lab/05_operate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/b_excercise/03_min_max_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06_expressions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_even_or_odd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/a_lab/06_expressions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/b_excercise/05_even_or_odd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.06_expressions" />
-        <item itemvalue="Python.00_demo" />
-        <item itemvalue="Python.04_chairs" />
-        <item itemvalue="Python.02_person_info" />
-        <item itemvalue="Python.05_operate" />
+        <item itemvalue="Python.02_odd_or_even" />
+        <item itemvalue="Python.01_negative_vs_positive" />
+        <item itemvalue="Python.03_min_max_sum" />
+        <item itemvalue="Python.05_even_or_odd" />
+        <item itemvalue="Python.02_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637697040733</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="last commit">
+      <created>1637702630878</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637702630878</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
