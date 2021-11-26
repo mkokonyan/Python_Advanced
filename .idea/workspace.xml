@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_functions_advanced/b_excercise/09_recursion_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/09_recursion_palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_functions_advanced/b_excercise/10_recursive_power.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/b_excercise/10_recursive_power.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_functions_advanced/a_lab/03_character_combinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/03_character_combinations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +45,8 @@
       <recent name="D:\Programming\advanced-06-21\05_functions_advanced\b_excercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.09_recursion_palindrome">
-    <configuration name="06_function_executor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.00_demo">
+    <configuration name="00_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +54,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_functions_advanced/b_excercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_functions_advanced/b_excercise/06_function_executor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.00_demo" />
         <item itemvalue="Python.09_recursion_palindrome" />
         <item itemvalue="Python.10_recursive_power" />
         <item itemvalue="Python.08_age_assignment" />
         <item itemvalue="Python.07_keyword_arguments_lenght" />
-        <item itemvalue="Python.06_function_executor" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637951610464</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="last commit">
+      <created>1637955162676</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637955162676</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
