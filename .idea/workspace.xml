@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_functions_advanced/a_lab/03_character_combinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_functions_advanced/a_lab/03_character_combinations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/04_number_classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/05_diagonals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_comprehensions/b_excercise/10_matrix_modification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_functions_advanced/b_excercise/11_fill_the_box.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_functions_advanced/b_excercise/12_math_operations.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637955162676</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="last commit">
+      <created>1637960971225</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637960971225</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
