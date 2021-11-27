@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
-      <change afterPath="$PROJECT_DIR$/06_file_handling/a_lab/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_file_handling/a_lab/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_file_handling/b_excercise/01_even_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_file_handling/b_excercise/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_file_handling/a_lab/03_file_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_file_handling/a_lab/03_file_writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_file_handling/a_lab/04_file_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_file_handling/a_lab/04_file_delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_file_handling/a_lab/05_word_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_file_handling/a_lab/05_word_count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_file_handling/b_excercise/01_even_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_file_handling/b_excercise/04_directory_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_file_handling/b_excercise/02_line_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_file_handling/b_excercise/02_line_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_file_handling/b_excercise/03_file_manipulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_file_handling/b_excercise/03_file_manipulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_file_handling/b_excercise/04_dorecotry_traversal.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +52,8 @@
       <recent name="D:\Programming\advanced-06-21\05_functions_advanced\b_excercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_word_count">
-    <configuration name="01_file_opener" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.04_directory_traversal">
+    <configuration name="01_even_lines (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/a_lab/01_file_opener.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/b_excercise/01_even_lines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_file_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_even_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +82,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/a_lab/02_file_reader.py" />
+      <option name="SCRIPT_NAME" value="D:\Programming\advanced-06-21\06_file_handling\b_excercise\01_even_lines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_file_writer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_line_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/a_lab/03_file_writer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/b_excercise/02_line_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_file_delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_file_manipulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/a_lab/04_file_delete.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/b_excercise/03_file_manipulator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_word_count" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_directory_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_file_handling/b_excercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/a_lab/05_word_count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_file_handling/b_excercise/04_directory_traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.05_word_count" />
-        <item itemvalue="Python.04_file_delete" />
-        <item itemvalue="Python.03_file_writer" />
-        <item itemvalue="Python.02_file_reader" />
-        <item itemvalue="Python.01_file_opener" />
+        <item itemvalue="Python.04_directory_traversal" />
+        <item itemvalue="Python.03_file_manipulator" />
+        <item itemvalue="Python.02_line_numbers" />
+        <item itemvalue="Python.01_even_lines (1)" />
+        <item itemvalue="Python.01_even_lines" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638002505852</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="last commit">
+      <created>1638005310815</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638005310815</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,6 +428,11 @@
           <url>file://$PROJECT_DIR$/06_file_handling/a_lab/05_word_count.py</url>
           <line>7</line>
           <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/06_file_handling/b_excercise/04_directory_traversal.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
