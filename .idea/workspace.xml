@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
-      <change afterPath="$PROJECT_DIR$/07_modules/a_lab/01_calculate_logarithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_modules/a_lab/02_ascii_art.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_modules/a_lab/05_fibonacci_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_modules/b_excercise/01_gui_shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fibonacci_sequence/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fibonacci_sequence/sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triangle_print/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triangle_print/line.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triangle_print/triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/db/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/db/user_credentials.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/db/users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui_shop_demo/products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_modules/b_excercise/01_gui_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui_shop_demo/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci_sequence/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci_sequence/sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangle_print/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui_shop_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangle_print/line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangle_print/triangle.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +55,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\advanced-06-21\07_modules\b_excercise" />
+      <recent name="D:\Programming\advanced-06-21\07_modules\a_lab" />
       <recent name="D:\Programming\advanced-06-21" />
       <recent name="D:\Programming\advanced-06-21\06_file_handling\a_lab" />
       <recent name="D:\Programming\advanced-06-21\05_functions_advanced\b_excercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_fibonacci_sequence">
+  <component name="RunManager" selected="Python.main">
     <configuration name="05_fibonacci_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +76,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_modules/a_lab/05_fibonacci_sequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advanced-06-21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui_shop_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_shop_demo/authentication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advanced-06-21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui_shop_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_shop_demo/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="products" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advanced-06-21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui_shop_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_shop_demo/products.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,76 +168,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="triangle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advanced-06-21" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_modules/a_lab/triangle" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_modules/a_lab/triangle/triangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="triangle (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advanced-06-21" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_modules/a_lab/triangle_print" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_modules/a_lab/triangle_print/triangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="triangle (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advanced-06-21" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/triangle_print" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/triangle_print/triangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.products" />
+        <item itemvalue="Python.authentication" />
         <item itemvalue="Python.05_fibonacci_sequence" />
         <item itemvalue="Python.sequence" />
-        <item itemvalue="Python.triangle (3)" />
-        <item itemvalue="Python.triangle (2)" />
-        <item itemvalue="Python.triangle (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638014880881</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="last commit">
+      <created>1638033657512</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1638033657512</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,6 +457,11 @@
           <url>file://$PROJECT_DIR$/06_file_handling/b_excercise/04_directory_traversal.py</url>
           <line>4</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gui_shop_demo/authentication.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="161" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
