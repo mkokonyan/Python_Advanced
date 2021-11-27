@@ -11,6 +11,8 @@ def login(username, password):
         for line in lines:
             usern, psword = line[:-1].split(", ")
             if usern == username and psword == password:
+                with open("db/current_user.txt", "w") as current_user_file:
+                    current_user_file.write(username)
                 render_products()
                 return
         render_login(errors=True)
