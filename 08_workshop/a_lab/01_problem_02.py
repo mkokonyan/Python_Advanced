@@ -22,11 +22,10 @@ players_data = {player_one: {"score": 501, "throws": 0},
                 }
 
 current_hit = input()
-index = 1
+turns = 1
 while current_hit:
     row_hit, col_hit = [int(x) for x in current_hit[1:-1].split(", ")]
-
-    if index % 2 == 1:
+    if turns % 2 == 1:
         current_player = player_one
     else:
         current_player = player_two
@@ -45,4 +44,4 @@ while current_hit:
         print(f"{current_player} won the game with {players_data[current_player]['throws']} throws!")
         break
     current_hit = input()
-    index += 1
+    turns += 1
