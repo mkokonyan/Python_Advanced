@@ -40,21 +40,24 @@ def has_win_condition_from_position(board, row_index, column_index,
     rows_count = len(board)
     columns_count = len(board[0])
 
-    left_horizontal_values = [is_win_condition_value(board, row_index, column_index+d, player, rows_count, columns_count)
-                         for d in range(win_condition_count)]
+    left_horizontal_values = [
+        is_win_condition_value(board, row_index, column_index + d, player, rows_count, columns_count)
+        for d in range(win_condition_count)]
 
     right_horizontal_values = [
         is_win_condition_value(board, row_index, column_index - d, player, rows_count, columns_count)
         for d in range(win_condition_count)]
 
-    down_vertical_values = [is_win_condition_value(board, row_index+d, column_index, player, rows_count, columns_count)
-                       for d in range(win_condition_count)]
+    down_vertical_values = [
+        is_win_condition_value(board, row_index + d, column_index, player, rows_count, columns_count)
+        for d in range(win_condition_count)]
     down_left_diagonal_values = [
         is_win_condition_value(board, row_index + d, column_index - d, player, rows_count, columns_count)
         for d in range(win_condition_count)]
 
-    down_right_diagonal_values = [is_win_condition_value(board, row_index+d,column_index + d, player, rows_count, columns_count)
-                       for d in range(win_condition_count)]
+    down_right_diagonal_values = [
+        is_win_condition_value(board, row_index + d, column_index + d, player, rows_count, columns_count)
+        for d in range(win_condition_count)]
 
     up_left_diagonal_values = [
         is_win_condition_value(board, row_index - d, column_index - d, player, rows_count, columns_count)
@@ -84,13 +87,24 @@ def print_board(board):
         print(row)
 
 
+def is_choice_valid(board, choice):
+    return 0 <= choice < len(board[0]) and board[0][choice] == 0
+
+
 def print_winner_message(player):
     print(f"The winner is player {player}")
+
+
+def print_invalid_choice_message(player):
+    print(f"Invalid choice by player {player}. Try again")
 
 
 def play(board, player=1):
     while True:
         player_choice = get_player_choice(player)
+        if not is_choice_valid(board, player_choice):
+            print_invalid_choice_message(player)
+            continue
         apply_player_choice(board, player_choice, player)
         print_board(board)
         if has_win_condition(board, player):
