@@ -35,8 +35,6 @@ def buy_product(button):
     render_products()
 
 
-
-
 def render_products():
     clean_screen()
     with open("db/products.txt", "r") as file:
@@ -57,5 +55,5 @@ def render_products():
 
             button.configure(command=lambda b=button: buy_product(b))
             button.grid(row=3, column=column_counter)
-            Label(text=current_product.get("count")).grid(row=2,column=column_counter)
+            Label(text=current_product.get("count")).grid(row=2, column=column_counter)
             column_counter += 1

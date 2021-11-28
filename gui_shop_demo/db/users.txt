@@ -1,2 +1,2 @@
-{"username": "mkk", "password": "123", "first_name": "Martin", "last_name": "Kokonyan", "products": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 3, 2, 2, 3, 3, 1, 1]}
+{"username": "mkk", "password": "123", "first_name": "Martin", "last_name": "Kokonyan", "products": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 3, 2, 2, 3, 3, 1, 1, 1]}
 {"username": "Test", "password": "123", "first_name": "Test", "last_name": "Testvo", "products": []}
