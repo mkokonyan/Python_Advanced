@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/workshop/console_connect_four/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/console_connect_four/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/core/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/core/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/core/logic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/core/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/tic_tac_toe/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_workshop/a_lab/01_problem_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_workshop/a_lab/01_problem_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/canvas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/db/current_user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/db/current_user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/db/products.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/db/products.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/db/user_credentials.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/db/user_credentials.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/db/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/db/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_shop_demo/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/gui_shop_demo/products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +62,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\advanced-06-21\workshop" />
+      <recent name="D:\Programming\advanced-06-21\08_workshop" />
       <recent name="D:\Programming\advanced-06-21" />
       <recent name="D:\Programming\advanced-06-21\07_modules\b_excercise" />
       <recent name="D:\Programming\advanced-06-21\07_modules\a_lab" />
-      <recent name="D:\Programming\advanced-06-21\06_file_handling\a_lab" />
-      <recent name="D:\Programming\advanced-06-21\05_functions_advanced\b_excercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_problem_02">
-    <configuration name="01_problem_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.game">
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_workshop/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop/console_connect_four" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_workshop/a_lab/01_problem_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop/console_connect_four/game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_fibonacci_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_modules/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop/tic_tac_toe/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_modules/a_lab/05_fibonacci_sequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop/tic_tac_toe/core/helpers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="logic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui_shop_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop/tic_tac_toe/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_shop_demo/authentication.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop/tic_tac_toe/core/logic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui_shop_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop/tic_tac_toe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_shop_demo/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop/tic_tac_toe/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="products" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui_shop_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/workshop/gui_shop_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui_shop_demo/products.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workshop/gui_shop_demo/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01_problem_02" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.products" />
-        <item itemvalue="Python.authentication" />
-        <item itemvalue="Python.05_fibonacci_sequence" />
+        <item itemvalue="Python.game" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.helpers" />
+        <item itemvalue="Python.logic" />
+        <item itemvalue="Python.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638102696021</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="last commit">
+      <created>1638104133880</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638104133880</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,11 +416,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/03_multidimensional_lists/b_excercise/07_snake_moves.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/03_multidimensional_lists/b_excercise/08_bombs.py</url>
           <line>13</line>
           <option name="timeStamp" value="72" />
@@ -418,16 +439,6 @@
           <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/01_flatten_lists.py</url>
           <line>2</line>
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/04_easter_bunny.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/03_multidimensional_lists/c_more_excercise/07_present_delivery.py</url>
@@ -475,7 +486,7 @@
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gui_shop_demo/authentication.py</url>
+          <url>file://$PROJECT_DIR$/workshop/gui_shop_demo/authentication.py</url>
           <line>9</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>

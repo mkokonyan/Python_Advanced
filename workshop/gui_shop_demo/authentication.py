@@ -1,8 +1,8 @@
 import json
 from tkinter import Button, Entry, Label
-from gui_shop_demo.canvas import tk
-from gui_shop_demo.helpers import clean_screen
-from gui_shop_demo.products import render_products
+from workshop.gui_shop_demo.canvas import tk
+from workshop.gui_shop_demo.helpers import clean_screen
+from workshop.gui_shop_demo.products import render_products
 
 
 def login(username, password):

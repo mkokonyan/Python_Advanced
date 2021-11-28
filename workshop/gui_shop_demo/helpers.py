@@ -1,4 +1,4 @@
-from gui_shop_demo.canvas import tk
+from workshop.gui_shop_demo.canvas import tk
 
 
 def clean_screen():

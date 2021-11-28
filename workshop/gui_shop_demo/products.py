@@ -1,8 +1,8 @@
 import json
 import os
 from tkinter import Button, Label
-from gui_shop_demo.helpers import clean_screen
-from gui_shop_demo.canvas import tk
+from workshop.gui_shop_demo.helpers import clean_screen
+from workshop.gui_shop_demo.canvas import tk
 from PIL import Image, ImageTk
 
 base_folder = os.path.dirname(__file__)
