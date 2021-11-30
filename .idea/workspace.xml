@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47606832-c6db-4b61-990b-3cdabacc5c64" name="Changes" comment="last commit">
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/01_aladins_gift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/02_ball_in_the_bucket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/03_shopping_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/02_retake_2021_Apr_14/01_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/02_retake_2021_Apr_14/02_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/02_retake_2021_Apr_14/03_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/03_exam_2021_Feb_14/01_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/03_exam_2021_Feb_14/02_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/03_exam_2021_Feb_14/03_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/04_retake_2020_Dec_16/01_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/04_retake_2020_Dec_16/02_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/04_retake_2020_Dec_16/03_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/05_exam_2020_Oct_24/01_scheduling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/05_exam_2020_Oct_24/02_checkmate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/05_exam_2020_Oct_24/03_list_pureness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/06_retake_2020_Aug_19/01_taxi_express.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/06_retake_2020_Aug_19/02_minesweeper_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/06_retake_2020_Aug_19/03_numbers_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/07_exam_2020_Jun_27/01_bombs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/07_exam_2020_Jun_27/02_snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_exam_prep/07_exam_2020_Jun_27/03_list_manipulator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +58,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_exam_prep/07_exam_2020_Jun_27" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\advanced-06-21\10_exam_prep\07_exam_2020_Jun_27" />
+      <recent name="D:\Programming\advanced-06-21\10_exam_prep\06_retake_2020_Aug_19" />
+      <recent name="D:\Programming\advanced-06-21\10_exam_prep\05_exam_2020_Oct_24" />
+      <recent name="D:\Programming\advanced-06-21\10_exam_prep\04_retake_2020_Dec_16" />
+      <recent name="D:\Programming\advanced-06-21\10_exam_prep\03_exam_2021_Feb_14" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\advanced-06-21\workshop" />
       <recent name="D:\Programming\advanced-06-21\08_workshop" />
@@ -49,7 +77,7 @@
       <recent name="D:\Programming\advanced-06-21\07_modules\a_lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.00_demo">
+  <component name="RunManager" selected="Python.01_problem">
     <configuration name="00_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01_numbers_dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_aladins_gift" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_error_handling/b_excercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_error_handling/b_excercise/01_numbers_dictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/01_aladins_gift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_email_validator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_error_handling/b_excercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_exam_prep/02_retake_2021_Apr_14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_error_handling/b_excercise/02_email_validator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_exam_prep/02_retake_2021_Apr_14/01_problem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_value_cannot_be_negative" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_ball_in_the_bucket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_error_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_error_handling/a_lab/02_value_cannot_be_negative.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/02_ball_in_the_bucket.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_repeat_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_shopping_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advanced-06-21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_error_handling/a_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_error_handling/a_lab/03_repeat_text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/03_shopping_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_problem" />
+        <item itemvalue="Python.03_shopping_list" />
+        <item itemvalue="Python.02_ball_in_the_bucket" />
+        <item itemvalue="Python.01_aladins_gift" />
         <item itemvalue="Python.00_demo" />
-        <item itemvalue="Python.02_email_validator" />
-        <item itemvalue="Python.01_numbers_dictionary" />
-        <item itemvalue="Python.03_repeat_text" />
-        <item itemvalue="Python.02_value_cannot_be_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638218124838</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="last commit">
+      <created>1638220563889</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1638220563889</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,6 +539,26 @@
           <url>file://$PROJECT_DIR$/workshop/gui_shop_demo/authentication.py</url>
           <line>9</line>
           <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/01_aladins_gift.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/03_shopping_list.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10_exam_prep/01_exam_2021_Oct_23/03_shopping_list.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10_exam_prep/02_retake_2021_Apr_14/01_problem.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
