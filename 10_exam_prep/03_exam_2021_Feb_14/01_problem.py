@@ -31,8 +31,11 @@ while True:
             created_fireworks["Crossette Fireworks"] += 1
         else:
             current_firework -= 1
-            fireworks.append(current_firework)
-            explosive_power.append(current_explosive_power)
+            if current_firework > 0:
+                fireworks.append(current_firework)
+                explosive_power.append(current_explosive_power)
+            else:
+                explosive_power.append(current_explosive_power)
     if len(fireworks) <= 0 or len(explosive_power) <= 0 or is_succeeded():
         break
 
