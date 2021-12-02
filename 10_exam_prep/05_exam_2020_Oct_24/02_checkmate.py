@@ -44,12 +44,23 @@ def right_horizontal_validation(row, col):
     return False
 
 def down_right_diagonal_validation(row, col):
-    for c in range(col+1, 8):
-        if is_valid_index(row, c):
-            if board[row][c] == "Q":
-                return False
-            elif board[row][c] == "K":
-                return True
+    for r in range(row+1, 8):
+        for c in range(col+row, 8):
+            if is_valid_index(r, c):
+                if board[r][c] == "Q":
+                    return False
+                elif board[r][c] == "K":
+                    return True
+    return False
+
+def up_right_diagonal_validation(row, col):
+    for r in range(row-1, 0, -1):
+        for c in range(col-row, 8):
+            if is_valid_index(r, c):
+                if board[r][c] == "Q":
+                    return False
+                elif board[r][c] == "K":
+                    return True
     return False
 
 
