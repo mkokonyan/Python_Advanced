@@ -4,63 +4,76 @@ def is_valid_index(row, col):
     return False
 
 
-def up_vertical_validation(row, col):
-    for r in range(row-1, 0, -1):
-        if is_valid_index(r, col):
-            if board[r][col] == "Q":
+def down_vertical(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row + idx, col):  # Down Vertical
+            if board[row + idx][col] == "Q":
                 return False
-            elif board[r][col] == "K":
+            elif board[row + idx][col] == "K":
                 return True
-    return False
 
 
-def down_vertical_validation(row, col):
-    for r in range(row+1, 8):
-        if is_valid_index(r, col):
-            if board[r][col] == "Q":
+def up_vertical(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row - idx, col):  # Up Vertical
+            if board[row - idx][col] == "Q":
                 return False
-            elif board[r][col] == "K":
+            elif board[row - idx][col] == "K":
                 return True
-    return False
 
 
-def left_horizontal_validation(row, col):
-    for c in range(col-1, 0, -1):
-        if is_valid_index(row, c):
-            if board[row][c] == "Q":
+def right_horizontal(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row, col + idx):  # Right horizontal
+            if board[row][col + idx] == "Q":
                 return False
-            elif board[row][c] == "K":
+            elif board[row][col + idx] == "K":
                 return True
-    return False
 
 
-def right_horizontal_validation(row, col):
-    for c in range(col+1, 8):
-        if is_valid_index(row, c):
-            if board[row][c] == "Q":
+def left_horizontal(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row, col - idx):  # Left horizontal
+            if board[row][col - idx] == "Q":
                 return False
-            elif board[row][c] == "K":
+            elif board[row][col - idx] == "K":
                 return True
-    return False
 
-def down_right_diagonal_validation(row, col):
-    for r in range(row+1, 8):
-        for c in range(col+row, 8):
-            if is_valid_index(r, c):
-                if board[r][c] == "Q":
-                    return False
-                elif board[r][c] == "K":
-                    return True
-    return False
 
-def up_right_diagonal_validation(row, col):
-    for r in range(row-1, 0, -1):
-        for c in range(col-row, 8):
-            if is_valid_index(r, c):
-                if board[r][c] == "Q":
-                    return False
-                elif board[r][c] == "K":
-                    return True
+def up_right_diagonal(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row - idx, col + idx):  # Up Right Diagonal
+            if board[row - idx][col + idx] == "Q":
+                return False
+            elif board[row - idx][col + idx] == "K":
+                return True
+
+
+def down_right_diagonal(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row + idx, col + idx):  # Down Right Diagonal
+            if board[row + idx][col + idx] == "Q":
+                return False
+            elif board[row + idx][col + idx] == "K":
+                return True
+
+
+def up_left_diagonal(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row - idx, col - idx):  # Up Left Diagonal
+            if board[row - idx][col - idx] == "Q":
+                return False
+            elif board[row - idx][col - idx] == "K":
+                return True
+
+
+def down_left_diagonal(row, col):
+    for idx in range(1, 8):
+        if is_valid_index(row + idx, col - idx):  # Down Left Diagonal
+            if board[row + idx][col - idx] == "Q":
+                return False
+            elif board[row + idx][col - idx] == "K":
+                return True
     return False
 
 
@@ -75,10 +88,13 @@ for r in range(8):
 
 for i in range(len(queens_coords)):
     current_row, current_col = queens_coords[i][0], queens_coords[i][1]
-    if up_vertical_validation(current_row, current_col) or down_vertical_validation(current_row, current_col) \
-            or left_horizontal_validation(current_row, current_col) or right_horizontal_validation(current_row, current_col):
+    if down_vertical(current_row, current_col) or up_vertical(current_row, current_col)\
+            or right_horizontal(current_row, current_col) or left_horizontal(current_row, current_col) \
+            or up_right_diagonal(current_row, current_col) or down_right_diagonal(current_row, current_col) \
+            or up_left_diagonal(current_row, current_col) or down_left_diagonal(current_row, current_col):
         valid_coords.append(queens_coords[i])
 
-[print(valid_coords[x]) for x in range(len(valid_coords))]
-
-
+if valid_coords:
+    [print(valid_coords[x]) for x in range(len(valid_coords))]
+else:
+    print("The king is safe!")
